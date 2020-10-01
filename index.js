@@ -70,6 +70,6 @@ app.use((req,res)=>{
     res.status(404).sendFile('./views/404.html',{ root:__dirname });
 });
 
-app.listen(3000,(req, res)=>{
+app.listen(process.env.PORT||3000,(req, res)=>{
     console.log("Server is running at port : 3000");
 });
