@@ -1,6 +1,6 @@
 const express=require('express');
 var MongoClient = require('mongodb').MongoClient;
-var url = "mongodb+srv://sivant:sivant9994532266@node-netninja.4r9my.mongodb.net/?retryWrites=true&w=majority";
+var url = "mongodb+srv://king:9994532266@node-netninja.4r9my.mongodb.net/?retryWrites=true&w=majority";
 app=express();
 
 // register view engine
