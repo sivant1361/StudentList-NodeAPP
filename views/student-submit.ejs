@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Student</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/" style="font-weight:800">STUDENT SERVER</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                <a class="nav-link" href="/">HOME</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="/student">REGISTER</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="/students">STUDENTS</a>
+                </li>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container" style="padding: 2em;">
+        <!-- <h2>Student's Data</h2> -->
+        <div class="card" style="padding:2em;box-shadow: 5px 6px;">
+            <h2>Welcome <span style="color: red;font-weight: 700;"><%= sName %>!</span></h2>
+            <h3>Your id is <span style="color: blue;font-weight: 700;"><%= sid %></span>.</h3>
+        </div>
+    </div>
+</body>
+</html>
