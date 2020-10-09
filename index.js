@@ -61,11 +61,6 @@ app.get('/students',(req, res)=>{
     });
 })
 
-// app.get('/student/:id',(req, res)=>{
-//     const id=req.params.id;
-//     res.send('Hello Student :'+id);
-// })
-
 app.use((req,res)=>{
     res.status(404).sendFile('./views/404.html',{ root:__dirname });
 });
